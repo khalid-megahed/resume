@@ -1,0 +1,52 @@
+.resume{
+padding:  5rem 0;
+
+}
+
+.left-resume h4{
+margin-top: 35px;
+font-size: 1.4rem;
+border-bottom: 3px solid #0762F9 ;
+width: fit-content;
+padding-bottom: 5px;
+
+}
+.right-resume h3{
+font-weight: 700;
+margin-bottom: 10px;
+margin-top: 20px;
+letter-spacing: 0.5px;
+}
+.right-resume p{
+margin-bottom: 22px;
+width: 88%;
+font-size: 16px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgba(0, 0, 0, 0.411);
+}
+.bars{
+padding: 3rem 0;
+
+
+}
+.danger{
+  height: 3rem !important;
+border-radius: 5px ;
+width: auto;
+margin-bottom: 1rem;
+margin-top: 0.5rem;
+}
+em{
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+li{
+  margin-top: 20px;
+ list-style: none;
+}
+@media screen and (max-width: 800px) {
+.skills{
+  padding: 0;
+}
+}

@@ -1,0 +1,42 @@
+.allfooter{
+  background-color: #0F0F0F;
+}
+.footer{
+  text-align: center;
+  
+  
+}
+.footer button{
+  width:80px;
+  height: 80px;
+  border-radius: 100px;
+  border: 0;
+  background-color:#525252 ;
+position: absolute;
+margin-top: -100px;
+margin-left: -40px;
+ 
+}
+.footer a button svg{
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  margin: 0;
+}
+.footer button:hover{
+background-color: #0F9095;
+transition: 0.5s;
+}
+.footer a svg {
+  margin: 1rem 1.5rem;
+  font-size: 35px;
+  color: #525252;
+}
+.footer a svg:hover{
+  color: white;
+  transition: 0.5s;
+}
+.textfooter p{
+  margin: 1rem 0;
+}

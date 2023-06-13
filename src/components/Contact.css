@@ -1,0 +1,61 @@
+.bg-contact{
+  padding: 6rem;
+background-color: #191919;
+}
+.col-2 svg{
+color: white;
+font-size: 60px !important;
+}
+
+
+
+.form-label{
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 1rem 0 1rem 0;
+  
+}
+.address{
+  color: rgba(255, 255, 255, 0.486);
+  padding: 3rem 0;
+}
+.address h5, .address p {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  line-height:3em;
+}
+.address span{
+  margin: 0.5rem 0;
+}
+.btn-primary {
+  width:  12rem;
+  height: 5rem;
+  background-color: black!important;
+  margin-top: 1rem;
+  font-size: 24px !important;
+  color: rgba(59, 137, 238, 0.671) !important;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  .bg-contact{
+    padding:2rem 5px;}
+
+.col-lg-8{
+  padding-left: 0px !important;
+}
+
+
+.col-2 h1 {
+  padding: 0 !important;
+}
+#w3review{
+  width: 100%;
+}
+}

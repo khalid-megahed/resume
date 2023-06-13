@@ -1,0 +1,74 @@
+.ground{
+  background-color: #000524;
+}
+
+
+.About{
+  padding: 6rem;
+}
+
+
+.handelAbout{
+  padding-right: 3.5rem;
+}
+.profileImg{
+text-align: center;}
+
+.profileImg img{
+  width: 120px;
+  height: 120px;
+  border-radius: 300px!important;
+  
+}
+.about-me {
+  padding: 0 50px 0 0;
+}
+.about-me h4 ,.details h4{
+  color: white;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+}
+.about-me p , .details span{
+  color: rgba(255, 255, 255, 0.486);
+  font-weight:500;
+  font-size: 16px;
+  margin-bottom: 30px;
+
+}
+.download-btn{
+background-color: #444444;
+font-size: 18px;
+font-weight: 700;
+color: white;
+border: 0;
+padding: 15px 20px;
+margin-top: 50px;
+}
+
+svg{
+margin-right: 5px;
+}
+.details{
+  padding: 0 18px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .handelAbout{
+    padding-right: 0rem;
+   
+  }
+  .about-me {
+    padding: 0 18px;
+  }
+  .profileImg{
+    display: none;
+  }
+  .download-btn{
+    width: 100%;
+  }
+}

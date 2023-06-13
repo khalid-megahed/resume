@@ -1,0 +1,67 @@
+.col-lg-3 {
+ height: 10rem;
+ text-align: center;
+ margin-bottom:2rem;
+
+
+}
+.head{
+  padding:3rem;
+}
+
+.col-lg-3 img{
+  height: 7.5rem ;
+  border-radius: 0;
+}
+.works{
+padding:4rem 10rem!important;
+background-color: #EBEEEE;
+text-align: center;
+color: rgba(0, 0, 0, 0.5);
+
+}
+.bg{
+  background-color: #EBEEEE;
+border: 0px;
+}
+.card-body{
+  height: 30px!important;
+   border-radius: 0;
+  
+}
+.card-title{
+  margin-top: -10px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+  .col-lg-3 {
+ width: 100%;
+   height: auto;
+   
+   }
+   .head{
+    padding: 0;
+   }
+  
+  
+  .col-lg-3 img{
+    height: 10rem ;
+    
+  }.works{
+    padding: 0rem!important;
+    
+  }
+}
+
+
+
