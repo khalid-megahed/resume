@@ -41,28 +41,28 @@ window.addEventListener("scroll", fixedNavbar)
         >
           <Nav activeKey="/#Header  ">
           <Nav.Item>
-            <Link to="header" spy={true} smooth={true} offset={100} duration={500}>HOME</Link>
+            <Link to="header" spy={true} smooth={true} offset={100} duration={0}>HOME</Link>
             </Nav.Item>
 
             <Nav.Item>
-            <Link to="about" spy={true} smooth={true} offset={100} duration={500}>ABOUT</Link>
+            <Link to="about" spy={true} smooth={true} offset={100} duration={0}>ABOUT</Link>
             </Nav.Item>
 
             <Nav.Item>
-            <Link to="resume" spy={true} smooth={true} offset={100} duration={500}>RESUME</Link>
+            <Link to="resume" spy={true} smooth={true} offset={100} duration={0}>RESUME</Link>
             </Nav.Item>
 
             <Nav.Item>
-            <Link to="works" spy={true} smooth={true} offset={100} duration={500}>WORK</Link>
+            <Link to="works" spy={true} smooth={true} offset={100} duration={0}>WORK</Link>
             </Nav.Item>
 
             <Nav.Item>
-            <Link to="contact" spy={true} smooth={true} offset={100} duration={500}>CONTACT</Link>
+            <Link to="contact" spy={true} smooth={true} offset={100} duration={0}>CONTACT</Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Container>
+      <Container  >
         <div className="banner-text">
           <h1>Nordic-Giant Project</h1>
           <h3>
